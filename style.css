@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    height: 100vh; /* Altura da viewport */
+    width: 130px; /* Largura do menu */
+    position: fixed; /* Fixar o menu */
+    left: 0;
+    top: 0;
+ 	background-image: url('bgrepeat.png');
+    background-repeat: repeat;
+    background-size: cover; /* Opcional: ajusta a imagem para cobrir todo o espaço */
+}
+
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar nav li {
+    padding: 8px;
+}
+
+.sidebar nav li a {
+    color: white;
+    text-decoration: none;
+}
+header {
+    background-color: #f0f0f0; /* Cinza claro */
+    padding: 0px;
+	padding-left: 65px;
+    text-align: center; /* Alinha o conteúdo à direita */
+	font-size: 12px;
+	position: fixed;
+	width: 100%;
+	height: 65px;
+	top: 0;
+	text-decoration-style: dashed;
+	
+}
+
+.user-info {
+    color: #333; /* Preto */
+}
